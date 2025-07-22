@@ -20,9 +20,6 @@ function Header() {
         <Link href="/" className="hover:underline">
           Beranda
         </Link>
-        <Link href="/profil" className="hover:underline">
-          Profil
-        </Link>
         <Link href="/struktur" className="hover:underline">
           Struktur
         </Link>
