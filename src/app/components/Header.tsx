@@ -19,7 +19,7 @@ function Header() {
           </div>
         </Link>
       </div>
-      <div className="flex flex-row justify-center items-center gap-2">
+      <div className="flex flex-row flex-wrap justify-center items-center gap-2">
         <Link href="/" className="hover:underline">
           Beranda
         </Link>
