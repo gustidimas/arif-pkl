@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold">
+      <h1 className="text-xl md:text-2xl font-semibold">
         Selamat Datang
       </h1>
       <p className="w-full lg:max-w-4xl">

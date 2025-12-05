@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Struktur() {
   return (
     <div>
-      <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold text-center py-8">
+      <h1 className="text-xl md:text-2xl font-semibold text-center py-8">
         Struktur Organisasi
       </h1>
       <Image

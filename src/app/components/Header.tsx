@@ -4,7 +4,10 @@ function Header() {
   return (
     <div className="w-full p-4 flex flex-row justify-between items-center bg-green-800 text-white">
       <div className="flex flex-row justify-center items-center gap-2">
-        <Link href="/" className="flex flex-row justify-start items-center gap-2">
+        <Link
+          href="/"
+          className="flex flex-row justify-start items-center gap-2"
+        >
           <img
             src="/images/logokajari.png"
             alt="Logo Kajari"
@@ -22,6 +25,12 @@ function Header() {
         </Link>
         <Link href="/struktur" className="hover:underline">
           Struktur
+        </Link>
+        <Link href="/tufungsi" className="hover:underline">
+          Tufungsi
+        </Link>
+        <Link href="/berita" className="hover:underline">
+          Berita
         </Link>
       </div>
     </div>
