@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <div className="w-full p-4 flex flex-row justify-between items-center bg-green-800 text-white">
+    <div className="w-full p-4 flex flex-col md:flex-row md:justify-between md:items-center bg-green-800 text-white gap-8 md:gap-0">
       <div className="flex flex-row justify-center items-center gap-2">
         <Link
           href="/"
